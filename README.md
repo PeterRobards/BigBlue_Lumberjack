@@ -35,7 +35,7 @@ $ for f in *; do mv "$f" "$f.log"; done
 Python 3 is essential for running this program and, while not required, I always suggest setting up a
 python virtual environment (venv) or (pipenv) when running this tool in order to keep your workspace isolated.
 
-If you already know you have an appropriate version of Python installed on your system, you can skip to [Usage](##Usage).
+If you already know you have an appropriate version of Python installed on your system, you can skip to [Usage](#usage).
 
 If you know you're missing Python3, you can find and download the appropriate package for your OS via the link below.
 If you're unsure, or you have never installed Python before check out the next section about installing python.
@@ -251,7 +251,7 @@ to go as all the libraries that this tool relies on are already included with Py
 To begin you'll need to download the raw access logs from BlueHost (or if your logs come from another source, make sure
 they are formatted correctly or be sure to modify the value extraction methods or the program might not perform correctly)
 and make sure they are all saved in the same directory with a matchin file extension(e.g. '.log'). Instructions on one way to
-accomplish this are included earlier in this document under [Prerequisites](###Prerequisites).
+accomplish this are included earlier in this document under [Prerequisites](#Prerequisites).
 Once those conditions are met you are ready to begin using this tool.
 
 Run `python process_logs.py` - as shown below there are also a set of optional arguments which are shown below:
