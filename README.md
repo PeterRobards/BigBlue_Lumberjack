@@ -1,10 +1,10 @@
 # BigBlue Lumberjack
 
 This repository contains a Python tool designed to aid in processing the RAW Access logs provided by
-a popular webhosting company (BlueHost.com). WIth this program you can quickly search your log files for 
+a popular webhosting company (BlueHost.com). With this program you can quickly search your log files for 
 various events (e.g. all the POST requests to a specific URL on your site) and/or reformat them to a new 
 format so that the data can be easily imported into other tools (currently both CSV and JSON formats are supported).
-his tool: `process_logs.py`, accepts a directory path as input (this directory should contain your raw log files, all 
+This tool: `process_logs.py`, accepts a directory path as input (this directory should contain your raw log files, all 
 with a matching file extension - e.g. '.log'), cycles through all the log files in that directory, extracts the key data,
 and loads that data into a python dictionary.
 
