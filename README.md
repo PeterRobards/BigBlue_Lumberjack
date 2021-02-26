@@ -271,7 +271,7 @@ optional arguments:
   -o [OUTPUT_RESULTS], --output_results [OUTPUT_RESULTS]
                         Output file name where you want to save the results from a search
   -e [{CSV,JSON}], --export_type [{CSV,JSON}]
-                        Signal the type of file in the directory to target (default=CSV)
+                        Signal the file format you want to export results to (default=CSV)
   -s, --search_for      Signal that you want to search for log events matching a certain pattern
   -S, --save_files      Signal that you wish to save the raw log files to a different format
   -D [DIR_OUT], --directory_out [DIR_OUT]
