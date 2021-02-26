@@ -20,7 +20,7 @@
 ##########################################################################################
 
 __author__ = ["Peter Robards"]
-__date__ = "02/23/2021"
+__date__ = "02/26/2021"
 __description__ = (
     "Reformat and/or Search RAW text Access Logs from BlueHost.com"
 )
@@ -402,7 +402,7 @@ def main():
         dest="export_type",
         choices=["CSV", "JSON"],
         default="CSV",
-        help="Signal the type of file in the directory to target (default=CSV)",
+        help="Signal the file format you want to export results to (default=CSV)",
     )
     parser.add_argument(
         "-s",
