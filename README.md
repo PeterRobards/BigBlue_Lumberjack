@@ -175,7 +175,7 @@ $ python3 -m pip install --user --upgrade pip
 It is recommended that you create a virtual environment in order to perform operations with this program on your system, 
 this will need to be accomplished before installing any further dependencies this tool relies on.
 The 'venv' module is the preferred way to create and manage virtual environments for this tool. 
-Luckily since Python 3.3m venv is included in the Python standard library.
+Luckily since Python 3.3x venv is included in the Python standard library.
  Below are the steps needed to create a virtual environment and activate it in the working directory for this tool.
 
 ### Linux
@@ -209,9 +209,7 @@ $ python -m venv env
 $ python3 -m venv env
 ```
 
-Note: The second argument is the location to create the virtual environment.
-so accourding to the above commands: venv will create a virtual Python installation in the env folder.
-In general, you can simply create this in your project yourself and call it env (or whatever you want).
+Note: The second argument is the location to create the virtual environment. Therefore, according to the above command, 'venv' will create a virtual Python installation in the 'env' directory. In general, you can simply create this in your project yourself and call it env (or whatever you want).
 
 Tip: You should be sure to exclude your virtual environment directory from your version control system using .gitignore or similar.
 
